@@ -3,7 +3,7 @@
 ! license that can be found in the LICENSE file.
 
 program fossil_test
-    use fossil_os, only: &
+    use fossil, only: &
         change_dir, &
         get_executable_path, &
         get_working_dir, &

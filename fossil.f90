@@ -2,7 +2,7 @@
 ! Use of this source code is governed by a BSD-style
 ! license that can be found in the LICENSE file.
 
-module fossil_os
+module fossil
 
     implicit none
 
@@ -148,4 +148,4 @@ contains
                        new_path, len_trim(new_path))
         if (present(status)) status = err
     end subroutine
-end module
+end module fossil
